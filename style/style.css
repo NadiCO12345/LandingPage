@@ -1,0 +1,153 @@
+body {
+    font-family: "Poppins", system-ui;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #020074;
+    padding: 10px 0;
+    text-align: center;
+    display: block;
+}
+
+.container-nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin: 20px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.cotainer-img {
+    height: 400px;
+    width: 100%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.cotainer-img .banner {
+    width: 100%;
+    height: 430px;
+    object-fit: cover;
+    position: relative;
+}
+
+.container-texto {
+    width: 33%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.container-texto p{
+    color: white;
+}
+
+.contact-section h2 {
+    color: white;
+    font-size: 30px;
+}
+
+.contact-section p {
+    font-size: 16px;
+    margin: 15px 0;
+}
+
+.container-contacto{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0px;
+}
+
+.form-container {
+    width: 500px;
+    background-color: #E2E2E2;
+    padding: 30px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.container-contacto h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+form input, form textarea {
+    width: 96%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #020074;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 25px;
+    width: 100%;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #062a5f;
+}
+
+footer {
+    background-color: #020074;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-info {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-info h4 {
+    color: #020074;
+    margin-bottom: 30px;
+    font-size: 25px;
+    width: 250px;
+    text-align: center;
+}
+.footer-info p{
+    width: 250px;
+    text-align: center;
+}
+
+.social-media a {
+    margin: 0 10px;
+}
+
+.social-media img {
+    width: 45px;
+    height: 45px;
+}
+
+footer p {
+    margin: 10px 0;
+}

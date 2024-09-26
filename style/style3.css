@@ -1,0 +1,164 @@
+body {
+    font-family: "Poppins", system-ui;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #020074;
+    padding: 10px 0;
+    text-align: center;
+    display: block;
+}
+
+.container-nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin: 20px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-first{
+    display: flex;
+}
+.container-img{
+    object-fit: cover;
+}
+.container-texto, .container-img{
+    width: 50%;
+    height: 430px;
+}
+
+.container-texto{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.container-texto p{
+    width: 450px;
+}
+
+h1{
+    color: #020074;
+    font-size: 45px;
+    width: 200px;
+}
+
+.sub-titulo{
+    width: 500px;
+    font-size: 20px;
+}
+
+h2{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 30px;
+}
+
+.container-general{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-caracteristicas{
+    margin: 0px 100px;
+    width: 100px;
+    text-align: center;
+}
+
+.container-articulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.articulo{
+    background-color: #020074;
+    color: white;
+    margin: 40px;
+    width: 300px;
+    height: 580px;
+}
+.articulo img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.articulo a{
+    color: white;
+}
+
+.articulo-horizontal{
+    background-color: #020074;
+    margin: 40px 145px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.articulo-horizontal img{
+    height: 300px;
+    object-fit: cover;
+}
+
+.articulo-horizontal a{
+    color: white;
+}
+.container-textarticulo{
+    margin: 30px;
+}
+
+.container-title p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+footer {
+    background-color: #020074;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-info {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-info h4 {
+    color: #020074;
+    margin-bottom: 30px;
+    font-size: 25px;
+    width: 250px;
+    text-align: center;
+}
+.footer-info p{
+    width: 250px;
+    text-align: center;
+}
+
+.social-media a {
+    margin: 0 10px;
+}
+
+.social-media img {
+    width: 45px;
+    height: 45px;
+}
+
+footer p {
+    margin: 10px 0;
+}
